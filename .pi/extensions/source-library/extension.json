@@ -1,0 +1,34 @@
+{
+  "name": "source-library",
+  "description": "Project-local source indexing and lightweight full-text search for files in sources/.",
+  "commands": {
+    "/index-sources": {
+      "description": "Scan sources/ and rebuild .learning/source-index/.",
+      "command": "uv run python .pi/extensions/source-library/bin/source_library.py index-sources"
+    },
+    "/sources": {
+      "description": "Show source files and whether they are currently indexed.",
+      "command": "uv run python .pi/extensions/source-library/bin/source_library.py sources"
+    }
+  },
+  "tools": {
+    "search_sources": {
+      "description": "Search indexed project sources.",
+      "command": "uv run python .pi/extensions/source-library/tools/search_sources.py",
+      "parameters": {
+        "query": {"type": "string", "required": true},
+        "max_results": {"type": "integer", "required": false, "default": 8},
+        "source": {"type": "string", "required": false}
+      }
+    },
+    "read_source_pages": {
+      "description": "Read indexed PDF source pages while preserving page boundaries.",
+      "command": "uv run python .pi/extensions/source-library/tools/read_source_pages.py",
+      "parameters": {
+        "source": {"type": "string", "required": true},
+        "start_page": {"type": "integer", "required": true},
+        "end_page": {"type": "integer", "required": true}
+      }
+    }
+  }
+}

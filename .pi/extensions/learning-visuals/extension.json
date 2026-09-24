@@ -1,0 +1,26 @@
+{
+  "name": "learning-visuals",
+  "description": "Generate educational diagrams and visual explanations under .learning/visuals/.",
+  "commands": {
+    "/visuals": {
+      "description": "Show recently generated visuals.",
+      "command": "uv run python .pi/extensions/learning-visuals/bin/learning_visuals.py visuals"
+    },
+    "/clear-visuals": {
+      "description": "Clear generated visuals after confirmation.",
+      "command": "uv run python .pi/extensions/learning-visuals/bin/learning_visuals.py clear-visuals"
+    }
+  },
+  "tools": {
+    "create_learning_visual": {
+      "description": "Create a PNG educational visual under .learning/visuals/.",
+      "command": "uv run python .pi/extensions/learning-visuals/tools/create_learning_visual.py",
+      "parameters": {
+        "visual_type": {"type": "string", "required": true, "enum": ["function_plot", "vectors", "geometry", "sequence", "mapping", "proof_diagram"]},
+        "description": {"type": "string", "required": false},
+        "title": {"type": "string", "required": false},
+        "spec": {"type": "object", "required": true}
+      }
+    }
+  }
+}

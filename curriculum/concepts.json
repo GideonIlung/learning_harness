@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "updated_at": "2026-09-23T00:00:00Z",
+  "concepts": {
+    "mathematics": {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "description": "Foundational quantitative methods used across engineering topics.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Apply relevant mathematical tools to engineering problems.",
+        "Explain the meaning of variables, equations, and assumptions."
+      ],
+      "importance": "core",
+      "source_refs": [],
+      "status": "learning"
+    },
+    "engineering_mechanics": {
+      "id": "engineering_mechanics",
+      "name": "Engineering Mechanics",
+      "description": "Analyzing forces, motion, and equilibrium in mechanical systems.",
+      "prerequisites": ["mathematics"],
+      "learning_objectives": [
+        "Identify force and motion relationships in mechanical systems.",
+        "Apply equilibrium or dynamics principles to representative problems."
+      ],
+      "importance": "core",
+      "source_refs": [],
+      "status": "not_started"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "learner-state",
+  "description": "Persistent, evidence-based learner state tracking using learner/history.jsonl and learner/mastery.json.",
+  "commands": {
+    "/learner": {
+      "description": "Show a concise overview of tracked concepts and active misconceptions.",
+      "command": "uv run python .pi/extensions/learner-state/bin/learner_state.py learner"
+    },
+    "/learner-history": {
+      "description": "Show recent assessment evidence in readable form.",
+      "command": "uv run python .pi/extensions/learner-state/bin/learner_state.py history"
+    }
+  },
+  "tools": {
+    "get_learner_state": {
+      "description": "Get current learner state for one concept or a concise overview.",
+      "command": "uv run python .pi/extensions/learner-state/tools/get_learner_state.py",
+      "parameters": {
+        "concept": {"type": "string", "required": false}
+      }
+    },
+    "record_assessment": {
+      "description": "Append assessment evidence and update transparent mastery estimates.",
+      "command": "uv run python .pi/extensions/learner-state/tools/record_assessment.py",
+      "parameters": {
+        "concept": {"type": "string", "required": true},
+        "assessment_type": {"type": "string", "required": true},
+        "correct": {"type": "boolean", "required": true},
+        "confidence": {"type": "number", "required": false},
+        "difficulty": {"type": "string", "required": false, "enum": ["easy", "medium", "hard", "transfer"]},
+        "dimension": {"type": "string", "required": true, "enum": ["recognition", "intuition", "formal_understanding", "application", "reasoning", "transfer"]},
+        "hint_level": {"type": "integer", "required": false},
+        "notes": {"type": "string", "required": false},
+        "misconception": {"type": "string", "required": false}
+      }
+    },
+    "record_misconception": {
+      "description": "Record an active misconception without duplicating existing entries.",
+      "command": "uv run python .pi/extensions/learner-state/tools/record_misconception.py",
+      "parameters": {
+        "concept": {"type": "string", "required": true},
+        "misconception": {"type": "string", "required": true},
+        "evidence": {"type": "string", "required": false}
+      }
+    },
+    "clear_misconception": {
+      "description": "Mark a misconception as resolved; history remains append-only.",
+      "command": "uv run python .pi/extensions/learner-state/tools/clear_misconception.py",
+      "parameters": {
+        "concept": {"type": "string", "required": true},
+        "misconception": {"type": "string", "required": true},
+        "evidence": {"type": "string", "required": false}
+      }
+    }
+  }
+}

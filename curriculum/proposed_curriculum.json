@@ -1,0 +1,820 @@
+{
+  "version": 1,
+  "generated_at": "2026-09-23T00:47:51Z",
+  "notes": [
+    "Heuristic proposal only; headings were filtered but not blindly accepted.",
+    "Prerequisite relationships are intentionally conservative/empty unless refined later."
+  ],
+  "concepts": {
+    "heat_transfer": {
+      "id": "heat_transfer",
+      "name": "Heat Transfer",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of Heat Transfer.",
+        "Apply Heat Transfer in representative problems.",
+        "Recognize when Heat Transfer is relevant."
+      ],
+      "importance": "core",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 5,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 210,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 7,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 33,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "engineering_economics": {
+      "id": "engineering_economics",
+      "name": "Engineering Economics",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of Engineering Economics.",
+        "Apply Engineering Economics in representative problems.",
+        "Recognize when Engineering Economics is relevant."
+      ],
+      "importance": "core",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 5,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 197,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 210,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 7,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 22,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "fluid_mechanics": {
+      "id": "fluid_mechanics",
+      "name": "Fluid Mechanics",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of Fluid Mechanics.",
+        "Apply Fluid Mechanics in representative problems.",
+        "Recognize when Fluid Mechanics is relevant."
+      ],
+      "importance": "core",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 5,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 210,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 7,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "probability_and_statistics": {
+      "id": "probability_and_statistics",
+      "name": "Probability and Statistics",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of Probability and Statistics.",
+        "Apply Probability and Statistics in representative problems.",
+        "Recognize when Probability and Statistics is relevant."
+      ],
+      "importance": "core",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 34,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 210,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 7,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 22,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "when_calculating_the_euac_costs_are_positive_and": {
+      "id": "when_calculating_the_euac_costs_are_positive_and",
+      "name": "When calculating the EUAC, costs are positive and",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of When calculating the EUAC, costs are positive and.",
+        "Apply When calculating the EUAC, costs are positive and in representative problems.",
+        "Recognize when When calculating the EUAC, costs are positive and is relevant."
+      ],
+      "importance": "supporting",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 199,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 200,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "belmont_ca_94002": {
+      "id": "belmont_ca_94002",
+      "name": "Belmont, CA 94002",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of Belmont, CA 94002.",
+        "Apply Belmont, CA 94002 in representative problems.",
+        "Recognize when Belmont, CA 94002 is relevant."
+      ],
+      "importance": "core",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 4,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 4,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 5,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "heating_ventilating_and": {
+      "id": "heating_ventilating_and",
+      "name": "Heating, Ventilating, and",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of Heating, Ventilating, and.",
+        "Apply Heating, Ventilating, and in representative problems.",
+        "Recognize when Heating, Ventilating, and is relevant."
+      ],
+      "importance": "core",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 7,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 76,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 9,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "for_region_i_rectangular": {
+      "id": "for_region_i_rectangular",
+      "name": "For region I (rectangular),",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of For region I (rectangular),.",
+        "Apply For region I (rectangular), in representative problems.",
+        "Recognize when For region I (rectangular), is relevant."
+      ],
+      "importance": "core",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 107,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 109,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 110,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "for_region_iv_circular": {
+      "id": "for_region_iv_circular",
+      "name": "For region IV (circular),",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of For region IV (circular),.",
+        "Apply For region IV (circular), in representative problems.",
+        "Recognize when For region IV (circular), is relevant."
+      ],
+      "importance": "core",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 108,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 109,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 110,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "the_overall_system_gain_is": {
+      "id": "the_overall_system_gain_is",
+      "name": "The overall system gain is",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of The overall system gain is.",
+        "Apply The overall system gain is in representative problems.",
+        "Recognize when The overall system gain is is relevant."
+      ],
+      "importance": "supporting",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 189,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 190,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "ethics": {
+      "id": "ethics",
+      "name": "Ethics",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of Ethics.",
+        "Apply Ethics in representative problems.",
+        "Recognize when Ethics is relevant."
+      ],
+      "importance": "core",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 205,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 7,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 33,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "thermodynamics": {
+      "id": "thermodynamics",
+      "name": "Thermodynamics",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of Thermodynamics.",
+        "Apply Thermodynamics in representative problems.",
+        "Recognize when Thermodynamics is relevant."
+      ],
+      "importance": "supporting",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 210,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 7,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "diagnostic_exam": {
+      "id": "diagnostic_exam",
+      "name": "Diagnostic Exam",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of Diagnostic Exam.",
+        "Apply Diagnostic Exam in representative problems.",
+        "Recognize when Diagnostic Exam is relevant."
+      ],
+      "importance": "supporting",
+      "source_refs": [
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 33,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "register_this_book_for_free_trial_access": {
+      "id": "register_this_book_for_free_trial_access",
+      "name": "Register this book for free trial access",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of Register this book for free trial access.",
+        "Apply Register this book for free trial access in representative problems.",
+        "Recognize when Register this book for free trial access is relevant."
+      ],
+      "importance": "supporting",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 2,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 2,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "register_your_book_for": {
+      "id": "register_your_book_for",
+      "name": "REGISTER YOUR BOOK FOR",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of REGISTER YOUR BOOK FOR.",
+        "Apply REGISTER YOUR BOOK FOR in representative problems.",
+        "Recognize when REGISTER YOUR BOOK FOR is relevant."
+      ],
+      "importance": "supporting",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 2,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 2,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "free_trial_web_book_access": {
+      "id": "free_trial_web_book_access",
+      "name": "FREE TRIAL WEB BOOK ACCESS",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of FREE TRIAL WEB BOOK ACCESS.",
+        "Apply FREE TRIAL WEB BOOK ACCESS in representative problems.",
+        "Recognize when FREE TRIAL WEB BOOK ACCESS is relevant."
+      ],
+      "importance": "supporting",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 2,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 2,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "report_errors_and_view_corrections_for_this_book": {
+      "id": "report_errors_and_view_corrections_for_this_book",
+      "name": "Report Errors and View Corrections for This Book",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of Report Errors and View Corrections for This Book.",
+        "Apply Report Errors and View Corrections for This Book in representative problems.",
+        "Recognize when Report Errors and View Corrections for This Book is relevant."
+      ],
+      "importance": "supporting",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 4,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 4,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "notice_to_readers_of_the_digital_book": {
+      "id": "notice_to_readers_of_the_digital_book",
+      "name": "Notice to Readers of the Digital Book",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of Notice to Readers of the Digital Book.",
+        "Apply Notice to Readers of the Digital Book in representative problems.",
+        "Recognize when Notice to Readers of the Digital Book is relevant."
+      ],
+      "importance": "supporting",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 4,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 4,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "personal_opinion_disclaimer": {
+      "id": "personal_opinion_disclaimer",
+      "name": "Personal Opinion Disclaimer",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of Personal Opinion Disclaimer.",
+        "Apply Personal Opinion Disclaimer in representative problems.",
+        "Recognize when Personal Opinion Disclaimer is relevant."
+      ],
+      "importance": "supporting",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 4,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 4,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "disclaimer_of_liability": {
+      "id": "disclaimer_of_liability",
+      "name": "Disclaimer of Liability",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of Disclaimer of Liability.",
+        "Apply Disclaimer of Liability in representative problems.",
+        "Recognize when Disclaimer of Liability is relevant."
+      ],
+      "importance": "supporting",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 4,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 4,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "printing_history": {
+      "id": "printing_history",
+      "name": "Printing History",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of Printing History.",
+        "Apply Printing History in representative problems.",
+        "Recognize when Printing History is relevant."
+      ],
+      "importance": "supporting",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 4,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 4,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "fedcba": {
+      "id": "fedcba",
+      "name": "FEDCBA",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of FEDCBA.",
+        "Apply FEDCBA in representative problems.",
+        "Recognize when FEDCBA is relevant."
+      ],
+      "importance": "supporting",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 4,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 4,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "dynamics_kinematics_and_vibrations": {
+      "id": "dynamics_kinematics_and_vibrations",
+      "name": "Dynamics, Kinematics, and Vibrations",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of Dynamics, Kinematics, and Vibrations.",
+        "Apply Dynamics, Kinematics, and Vibrations in representative problems.",
+        "Recognize when Dynamics, Kinematics, and Vibrations is relevant."
+      ],
+      "importance": "supporting",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 5,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 7,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "preface": {
+      "id": "preface",
+      "name": "Preface",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of Preface.",
+        "Apply Preface in representative problems.",
+        "Recognize when Preface is relevant."
+      ],
+      "importance": "supporting",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 8,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 11,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "in_2014_the_ncees_adopted_revised_specifications_for": {
+      "id": "in_2014_the_ncees_adopted_revised_specifications_for",
+      "name": "In 2014, the NCEES adopted revised specifications for",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of In 2014, the NCEES adopted revised specifications for.",
+        "Apply In 2014, the NCEES adopted revised specifications for in representative problems.",
+        "Recognize when In 2014, the NCEES adopted revised specifications for is relevant."
+      ],
+      "importance": "supporting",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 8,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 11,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "handbook_is_poorly_organized_awkwardly_formatted": {
+      "id": "handbook_is_poorly_organized_awkwardly_formatted",
+      "name": "Handbook) is poorly organized, awkwardly formatted,",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of Handbook) is poorly organized, awkwardly formatted,.",
+        "Apply Handbook) is poorly organized, awkwardly formatted, in representative problems.",
+        "Recognize when Handbook) is poorly organized, awkwardly formatted, is relevant."
+      ],
+      "importance": "supporting",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 8,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 11,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "the_obsolete_paper_based_exam_required_very_little": {
+      "id": "the_obsolete_paper_based_exam_required_very_little",
+      "name": "The obsolete paper-based exam required very little",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of The obsolete paper-based exam required very little.",
+        "Apply The obsolete paper-based exam required very little in representative problems.",
+        "Recognize when The obsolete paper-based exam required very little is relevant."
+      ],
+      "importance": "supporting",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 8,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 11,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "the_number_of_questions_needed_by_you_personally": {
+      "id": "the_number_of_questions_needed_by_you_personally",
+      "name": "The number of questions needed by you, personally,",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of The number of questions needed by you, personally,.",
+        "Apply The number of questions needed by you, personally, in representative problems.",
+        "Recognize when The number of questions needed by you, personally, is relevant."
+      ],
+      "importance": "supporting",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 9,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 12,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "acknowledgments": {
+      "id": "acknowledgments",
+      "name": "Acknowledgments",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of Acknowledgments.",
+        "Apply Acknowledgments in representative problems.",
+        "Recognize when Acknowledgments is relevant."
+      ],
+      "importance": "supporting",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 10,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 13,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    },
+    "editorial_project_managers_chelsea_logan_magnolia": {
+      "id": "editorial_project_managers_chelsea_logan_magnolia",
+      "name": "Editorial project managers Chelsea Logan, Magnolia",
+      "description": "Proposed from repeated heading-like source occurrences; verify/refine before relying on this concept.",
+      "prerequisites": [],
+      "learning_objectives": [
+        "Explain the purpose of Editorial project managers Chelsea Logan, Magnolia.",
+        "Apply Editorial project managers Chelsea Logan, Magnolia in representative problems.",
+        "Recognize when Editorial project managers Chelsea Logan, Magnolia is relevant."
+      ],
+      "importance": "supporting",
+      "source_refs": [
+        {
+          "source": "FE Mechanical Practice Problems - For the Mechanical Fundamentals of Engineering Exam (Michael R. Lindeburg) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 10,
+          "note": "heading-like occurrence"
+        },
+        {
+          "source": "FE mechanical review manual  rapid preparation for the mechanical fundamentals of engineering exam (Lindeburg, Michael R) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "page": 13,
+          "note": "heading-like occurrence"
+        }
+      ],
+      "status": "not_started"
+    }
+  }
+}

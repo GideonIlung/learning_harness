@@ -1,0 +1,12 @@
+{
+  "preferences": {
+    "concise_explanations": true,
+    "prefer_bullets": true,
+    "prefer_visuals": true,
+    "problem_first": true,
+    "frequent_checkpoints": true,
+    "allow_formal_notation": true,
+    "explain_new_symbols": true,
+    "proof_style": "intuition_then_formal"
+  }
+}

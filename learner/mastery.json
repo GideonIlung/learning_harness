@@ -1,0 +1,60 @@
+{
+  "concepts": {
+    "mathematics": {
+      "dimensions": {
+        "recognition": 0.0,
+        "intuition": 0.0,
+        "formal_understanding": 0.0,
+        "application": 0.0728,
+        "reasoning": 0.0,
+        "transfer": 0.0
+      },
+      "evidence_counts": {
+        "recognition": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        },
+        "intuition": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        },
+        "formal_understanding": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        },
+        "application": {
+          "correct": 1,
+          "incorrect": 0,
+          "total": 1
+        },
+        "reasoning": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        },
+        "transfer": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        }
+      },
+      "active_misconceptions": [],
+      "resolved_misconceptions": [],
+      "last_updated": "2026-09-22T23:12:21Z",
+      "recent_assessments": [
+        {
+          "timestamp": "2026-09-22T23:12:21Z",
+          "assessment_type": "application question",
+          "correct": true,
+          "confidence": 80,
+          "difficulty": "medium",
+          "dimension": "application",
+          "hint_level": 0
+        }
+      ]
+    }
+  }
+}

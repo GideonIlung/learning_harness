@@ -1,0 +1,52 @@
+{
+  "name": "learning-session",
+  "description": "Coordinates source-library, learner-state, learning-curriculum, and learning-visuals to manage adaptive learning-session state while leaving teaching judgment to the LLM.",
+  "commands": {
+    "/learn": {
+      "description": "Start an adaptive learning session for a topic.",
+      "command": "uv run python .pi/extensions/learning-session/bin/learning_session.py learn"
+    },
+    "/lesson-status": {
+      "description": "Show the active lesson topic, concept, stage, path, evidence, and active misconceptions.",
+      "command": "uv run python .pi/extensions/learning-session/bin/learning_session.py lesson-status"
+    },
+    "/end-lesson": {
+      "description": "End the active lesson, save structured metadata, and archive the session state.",
+      "command": "uv run python .pi/extensions/learning-session/bin/learning_session.py end-lesson"
+    }
+  },
+  "tools": {
+    "start_learning_session": {
+      "description": "Start a session: inspect curriculum, learner state, prerequisites, learning path, sources, and return a teaching brief.",
+      "command": "uv run python .pi/extensions/learning-session/tools/start_learning_session.py",
+      "parameters": {
+        "topic": {"type": "string", "required": true},
+        "goal": {"type": "string", "required": false},
+        "available_time_minutes": {"type": "integer", "required": false}
+      }
+    },
+    "get_next_teaching_action": {
+      "description": "Recommend the next teaching action from current session state and recent evidence without generating lesson content.",
+      "command": "uv run python .pi/extensions/learning-session/tools/get_next_teaching_action.py",
+      "parameters": {
+        "recent_evidence": {"type": "string", "required": false}
+      }
+    },
+    "record_learning_event": {
+      "description": "Record structured session events such as concept introduction, visual shown, checkpoint completed, or misconception found.",
+      "command": "uv run python .pi/extensions/learning-session/tools/record_learning_event.py",
+      "parameters": {
+        "event_type": {"type": "string", "required": true},
+        "concept": {"type": "string", "required": true},
+        "description": {"type": "string", "required": true},
+        "source_ref": {"type": "object", "required": false},
+        "visual_path": {"type": "string", "required": false}
+      }
+    },
+    "advance_learning_concept": {
+      "description": "Decide whether to continue, review a prerequisite, move to the next concept, test transfer, or complete the session.",
+      "command": "uv run python .pi/extensions/learning-session/tools/advance_learning_concept.py",
+      "parameters": {}
+    }
+  }
+}

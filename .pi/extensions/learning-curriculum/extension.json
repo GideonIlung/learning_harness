@@ -1,0 +1,51 @@
+{
+  "name": "learning-curriculum",
+  "description": "Project-local concept-map curriculum management using simple JSON files in curriculum/.",
+  "commands": {
+    "/curriculum": {
+      "description": "Display a concise curriculum overview, incorporating learner-state information when available.",
+      "command": "uv run python .pi/extensions/learning-curriculum/bin/learning_curriculum.py curriculum"
+    },
+    "/learning-path": {
+      "description": "Display an ordered learning path for a target topic.",
+      "command": "uv run python .pi/extensions/learning-curriculum/bin/learning_curriculum.py learning-path"
+    },
+    "/build-curriculum": {
+      "description": "Inspect indexed sources and write a conservative proposed curriculum without overwriting the existing curriculum.",
+      "command": "uv run python .pi/extensions/learning-curriculum/bin/learning_curriculum.py build-curriculum"
+    }
+  },
+  "tools": {
+    "get_curriculum": {
+      "description": "Get a concise curriculum overview or details for one concept.",
+      "command": "uv run python .pi/extensions/learning-curriculum/tools/get_curriculum.py",
+      "parameters": {
+        "concept": {"type": "string", "required": false},
+        "include_prerequisites": {"type": "boolean", "required": false},
+        "include_dependents": {"type": "boolean", "required": false}
+      }
+    },
+    "get_learning_path": {
+      "description": "Propose an ordered path to a target, using curriculum dependencies and learner mastery evidence.",
+      "command": "uv run python .pi/extensions/learning-curriculum/tools/get_learning_path.py",
+      "parameters": {
+        "target": {"type": "string", "required": true}
+      }
+    },
+    "update_curriculum": {
+      "description": "Add or update a concept, append prerequisites, learning objectives, and source references. Does not remove relationships.",
+      "command": "uv run python .pi/extensions/learning-curriculum/tools/update_curriculum.py",
+      "parameters": {
+        "id": {"type": "string", "required": false},
+        "name": {"type": "string", "required": false},
+        "description": {"type": "string", "required": false},
+        "importance": {"type": "string", "required": false, "enum": ["core", "supporting", "advanced", "optional"]},
+        "status": {"type": "string", "required": false, "enum": ["not_started", "learning", "review", "strong", "mastered"]},
+        "prerequisites": {"type": "array", "required": false},
+        "learning_objectives": {"type": "array", "required": false},
+        "source_refs": {"type": "array", "required": false},
+        "concept": {"type": "object", "required": false}
+      }
+    }
+  }
+}
