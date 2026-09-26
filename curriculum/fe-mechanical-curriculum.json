@@ -1,0 +1,25 @@
+{
+  "name": "FE Mechanical Curriculum",
+  "basis": [
+    "sources/FE Mechanical Exam Hour Tracker.xlsx",
+    "sources/fe-handbook-10-6.pdf Appendix: FE Exam Specifications, Mechanical"
+  ],
+  "order_policy": "Follow the topic order in the FE Mechanical Exam Hour Tracker spreadsheet exactly.",
+  "total_planned_hours": 106,
+  "topics": [
+    {"order":1,"topic":"Dynamics, Kinematics & Vibrations","questions":"10–15","planned_hours":14,"hours_completed":0,"official_scope":["Kinematics of particles","Kinetic friction","Newton’s second law for particles","Work-energy of particles","Impulse-momentum of particles","Kinematics of rigid bodies","Kinematics of mechanisms","Newton’s second law for rigid bodies","Work-energy of rigid bodies","Impulse-momentum of rigid bodies","Free and forced vibrations"]},
+    {"order":2,"topic":"Statics","questions":"9–14","planned_hours":10,"hours_completed":0,"official_scope":["Resultants of force systems","Concurrent force systems","Equilibrium of rigid bodies","Frames and trusses","Centroids and moments of inertia","Static friction"]},
+    {"order":3,"topic":"Mechanics of Materials","questions":"9–14","planned_hours":12,"hours_completed":0,"official_scope":["Shear and moment diagrams","Stress transformations and Mohr's circle","Stress and strain caused by axial loads","Stress and strain caused by bending loads","Stress and strain caused by torsional loads","Stress and strain caused by shear","Stress and strain caused by temperature changes","Combined loading","Deformations","Column buckling","Statically indeterminate systems"]},
+    {"order":4,"topic":"Mechanical Design & Analysis","questions":"10–15","planned_hours":13,"hours_completed":0,"official_scope":["Stress analysis of machine elements","Failure theories and analysis","Deformation and stiffness","Springs","Pressure vessels and piping","Bearings","Power screws","Power transmission","Joining methods","Manufacturability","Quality and reliability","Components","Engineering drawing interpretations and GD&T"]},
+    {"order":5,"topic":"Electricity & Magnetism","questions":"5–8","planned_hours":6,"hours_completed":0,"official_scope":["Electrical fundamentals","DC circuit analysis","AC circuit analysis","Motors and generators"]},
+    {"order":6,"topic":"Material Properties & Processing","questions":"7–11","planned_hours":8,"hours_completed":0,"official_scope":["Properties","Stress-strain diagrams","Ferrous metals","Nonferrous metals","Engineered materials","Manufacturing processes","Phase diagrams, phase transformation, and heat treating","Materials selection","Corrosion mechanisms and control","Failure mechanisms"]},
+    {"order":7,"topic":"Thermodynamics","questions":"10–15","planned_hours":12,"hours_completed":0,"official_scope":["Properties of ideal gases and pure substances","Energy transfers","Laws of thermodynamics","Processes","Performance of components","Power cycles","Refrigeration and heat pump cycles","Nonreacting mixtures of gases","Psychrometrics","HVAC processes","Combustion and combustion products"]},
+    {"order":8,"topic":"Fluid Mechanics","questions":"10–15","planned_hours":8,"hours_completed":0,"official_scope":["Fluid properties","Fluid statics","Energy, impulse, and momentum","Internal flow","External flow","Compressible flow","Power and efficiency","Performance curves","Scaling laws for fans, pumps, and compressors"]},
+    {"order":9,"topic":"Heat Transfer","questions":"7–11","planned_hours":8,"hours_completed":0,"official_scope":["Conduction","Convection","Radiation","Transient processes","Heat exchangers"]},
+    {"order":10,"topic":"Measurements, Instrumentation & Controls","questions":"5–8","planned_hours":5,"hours_completed":0,"official_scope":["Sensors and transducers","Control systems","Dynamic system response","Measurement uncertainty"]},
+    {"order":11,"topic":"Engineering Economics","questions":"4–6","planned_hours":4,"hours_completed":0,"official_scope":["Time value of money","Cost types and breakdowns","Economic analyses"]},
+    {"order":12,"topic":"Ethics & Professional Practice","questions":"4–6","planned_hours":3,"hours_completed":0,"official_scope":["Codes of ethics","Public health, safety, and welfare","Intellectual property","Societal considerations"]},
+    {"order":13,"topic":"Probability & Statistics","questions":"4–6","planned_hours":3,"hours_completed":0,"official_scope":["Probability distributions","Measures of central tendencies and dispersions","Expected value","Regression, curve fitting, and goodness of fit"]},
+    {"order":14,"topic":"Mathematics","questions":"6–9","planned_hours":3,"hours_completed":0,"official_scope":["Analytic geometry","Calculus","Ordinary differential equations","Linear algebra","Numerical methods","Algorithm and logic development"]}
+  ]
+}
