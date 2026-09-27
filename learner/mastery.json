@@ -55,6 +55,311 @@
           "hint_level": 0
         }
       ]
+    },
+    "dynamics tool selection": {
+      "dimensions": {
+        "recognition": 0.0,
+        "intuition": 0.0,
+        "formal_understanding": 0.0,
+        "application": 0.0764,
+        "reasoning": 0.0,
+        "transfer": 0.0
+      },
+      "evidence_counts": {
+        "recognition": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        },
+        "intuition": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        },
+        "formal_understanding": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        },
+        "application": {
+          "correct": 1,
+          "incorrect": 0,
+          "total": 1
+        },
+        "reasoning": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        },
+        "transfer": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        }
+      },
+      "active_misconceptions": [],
+      "resolved_misconceptions": [],
+      "last_updated": "2026-09-26T16:00:11Z",
+      "recent_assessments": [
+        {
+          "timestamp": "2026-09-26T16:00:11Z",
+          "assessment_type": "mixed method-selection checkpoint",
+          "correct": true,
+          "confidence": 90,
+          "difficulty": "medium",
+          "dimension": "application",
+          "hint_level": 0
+        }
+      ]
+    },
+    "general dynamics equations": {
+      "dimensions": {
+        "recognition": 0.0,
+        "intuition": 0.0,
+        "formal_understanding": 0.0764,
+        "application": 0.0,
+        "reasoning": 0.0,
+        "transfer": 0.0
+      },
+      "evidence_counts": {
+        "recognition": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        },
+        "intuition": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        },
+        "formal_understanding": {
+          "correct": 1,
+          "incorrect": 0,
+          "total": 1
+        },
+        "application": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        },
+        "reasoning": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        },
+        "transfer": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        }
+      },
+      "active_misconceptions": [],
+      "resolved_misconceptions": [],
+      "last_updated": "2026-09-26T16:00:11Z",
+      "recent_assessments": [
+        {
+          "timestamp": "2026-09-26T16:00:11Z",
+          "assessment_type": "equation setup checkpoint",
+          "correct": true,
+          "confidence": 90,
+          "difficulty": "medium",
+          "dimension": "formal_understanding",
+          "hint_level": 0
+        }
+      ]
+    },
+    "work-energy": {
+      "dimensions": {
+        "recognition": 0.0,
+        "intuition": 0.0,
+        "formal_understanding": 0.0,
+        "application": 0.0955,
+        "reasoning": 0.0,
+        "transfer": 0.0
+      },
+      "evidence_counts": {
+        "recognition": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        },
+        "intuition": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        },
+        "formal_understanding": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        },
+        "application": {
+          "correct": 1,
+          "incorrect": 0,
+          "total": 1
+        },
+        "reasoning": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        },
+        "transfer": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        }
+      },
+      "active_misconceptions": [],
+      "resolved_misconceptions": [],
+      "last_updated": "2026-09-26T16:00:11Z",
+      "recent_assessments": [
+        {
+          "timestamp": "2026-09-26T16:00:11Z",
+          "assessment_type": "position-dependent force problem",
+          "correct": true,
+          "confidence": 90,
+          "difficulty": "hard",
+          "dimension": "application",
+          "hint_level": 0
+        }
+      ]
+    },
+    "impulse-momentum": {
+      "dimensions": {
+        "recognition": 0.0,
+        "intuition": 0.0,
+        "formal_understanding": 0.0,
+        "application": 0.0955,
+        "reasoning": 0.0,
+        "transfer": 0.0
+      },
+      "evidence_counts": {
+        "recognition": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        },
+        "intuition": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        },
+        "formal_understanding": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        },
+        "application": {
+          "correct": 1,
+          "incorrect": 0,
+          "total": 1
+        },
+        "reasoning": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        },
+        "transfer": {
+          "correct": 0,
+          "incorrect": 0,
+          "total": 0
+        }
+      },
+      "active_misconceptions": [],
+      "resolved_misconceptions": [],
+      "last_updated": "2026-09-26T16:00:11Z",
+      "recent_assessments": [
+        {
+          "timestamp": "2026-09-26T16:00:11Z",
+          "assessment_type": "time-dependent force and collision problems",
+          "correct": true,
+          "confidence": 90,
+          "difficulty": "hard",
+          "dimension": "application",
+          "hint_level": 0
+        }
+      ]
+    },
+    "rigid body dynamics": {
+      "dimensions": {
+        "recognition": 0.0,
+        "intuition": 0.0,
+        "formal_understanding": 0,
+        "application": 0.07,
+        "reasoning": 0.0,
+        "transfer": 0.0
+      },
+      "evidence_counts": {
+        "formal_understanding": {
+          "correct": 0,
+          "incorrect": 1,
+          "total": 1
+        },
+        "application": {
+          "correct": 1,
+          "incorrect": 0,
+          "total": 1
+        }
+      },
+      "active_misconceptions": [
+        "confused linear force equation with rotational moment equation"
+      ],
+      "resolved_misconceptions": [],
+      "last_updated": "2026-09-26T16:20:00Z",
+      "recent_assessments": [
+        {
+          "timestamp": "2026-09-26T16:20:00Z",
+          "assessment_type": "diagnostic rotational equation",
+          "correct": false,
+          "confidence": 50,
+          "difficulty": "medium",
+          "dimension": "formal_understanding",
+          "hint_level": 0,
+          "notes": "Initially confused force and moment equations for rotation."
+        },
+        {
+          "timestamp": "2026-09-26T16:20:00Z",
+          "assessment_type": "rolling cylinder equation selection checkpoint",
+          "correct": true,
+          "confidence": 70,
+          "difficulty": "medium",
+          "dimension": "application",
+          "hint_level": 0,
+          "notes": "Correctly chose both translational and rotational equations for rolling cylinder."
+        }
+      ]
+    },
+    "rolling without slipping": {
+      "dimensions": {
+        "recognition": 0.0,
+        "intuition": 0.07,
+        "formal_understanding": 0.0,
+        "application": 0.0,
+        "reasoning": 0.0,
+        "transfer": 0.0
+      },
+      "evidence_counts": {
+        "intuition": {
+          "correct": 1,
+          "incorrect": 0,
+          "total": 1
+        }
+      },
+      "active_misconceptions": [],
+      "resolved_misconceptions": [],
+      "last_updated": "2026-09-26T16:20:00Z",
+      "recent_assessments": [
+        {
+          "timestamp": "2026-09-26T16:20:00Z",
+          "assessment_type": "friction direction checkpoint",
+          "correct": true,
+          "confidence": 80,
+          "difficulty": "medium",
+          "dimension": "intuition",
+          "hint_level": 0,
+          "notes": "Correctly identified static friction direction up the incline."
+        }
+      ]
     }
   }
 }
