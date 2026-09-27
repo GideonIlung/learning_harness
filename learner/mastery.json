@@ -1,60 +1,69 @@
 {
-  "concepts": {
-    "mathematics": {
-      "dimensions": {
-        "recognition": 0.0,
-        "intuition": 0.0,
-        "formal_understanding": 0.0,
-        "application": 0.0728,
-        "reasoning": 0.0,
-        "transfer": 0.0
-      },
-      "evidence_counts": {
-        "recognition": {
-          "correct": 0,
-          "incorrect": 0,
-          "total": 0
-        },
-        "intuition": {
-          "correct": 0,
-          "incorrect": 0,
-          "total": 0
-        },
-        "formal_understanding": {
-          "correct": 0,
-          "incorrect": 0,
-          "total": 0
-        },
-        "application": {
-          "correct": 1,
-          "incorrect": 0,
-          "total": 1
-        },
-        "reasoning": {
-          "correct": 0,
-          "incorrect": 0,
-          "total": 0
-        },
-        "transfer": {
-          "correct": 0,
-          "incorrect": 0,
-          "total": 0
-        }
-      },
-      "active_misconceptions": [],
-      "resolved_misconceptions": [],
-      "last_updated": "2026-09-22T23:12:21Z",
-      "recent_assessments": [
-        {
-          "timestamp": "2026-09-22T23:12:21Z",
-          "assessment_type": "application question",
-          "correct": true,
-          "confidence": 80,
-          "difficulty": "medium",
-          "dimension": "application",
-          "hint_level": 0
-        }
-      ]
+  "french": {
+    "articles_definite_indefinite_basic": {
+      "evidence": [
+        "Correctly chose le livre, la maison, les tables",
+        "Correctly chose une table, les livres, des maisons"
+      ],
+      "status": "developing"
+    },
+    "adjective_agreement_petit_basic": {
+      "evidence": [
+        "Correctly formed un petit livre, une petite maison, des petites tables",
+        "Correctly used petit with masculine livre and petite with feminine maison",
+        "Correctly produced cette petite maison and cette petite table"
+      ],
+      "status": "developing"
+    },
+    "regular_er_verb_parler_present_basic": {
+      "evidence": [
+        "Correctly selected je parle, nous parlons, vous parlez",
+        "Initial diagnostic error on nous parle corrected in checkpoint",
+        "Correctly produced Je parle francais / Je ne parle pas francais"
+      ],
+      "status": "developing"
+    },
+    "negation_ne_pas_basic": {
+      "evidence": [
+        "Correctly selected Je ne parle pas français, Nous ne parlons pas, Je n’ai pas de livre",
+        "Initially wrote Je n’ai pas une petite maison; then correctly wrote Je n’ai pas de petit livre after feedback"
+      ],
+      "status": "developing"
+    },
+    "demonstratives_ce_cet_cette_ces_basic": {
+      "evidence": [
+        "Correctly identified ce livre, cette maison, ces livres",
+        "Correctly identified cet étudiant, cette table, ces étudiants",
+        "Correctly produced Ce petit livre est ici and Cette petite maison est ici",
+        "Needed repair for plural agreement in ces petites maisons / ces petits livres, then corrected"
+      ],
+      "status": "developing"
+    },
+    "etre_est_sont_basic": {
+      "evidence": [
+        "Correctly used est in singular sentences",
+        "Initially wrote son for sont; corrected in later sentence Ces petites maisons sont ici"
+      ],
+      "status": "developing"
+    },
+    "where_questions_ou_est_basic": {
+      "evidence": [
+        "Correctly translated Où est la maison? and Où est le livre?",
+        "Produced ou est la gare; accent omission accepted due keyboard issue"
+      ],
+      "status": "developing"
+    },
+    "pronunciation_preference": {
+      "evidence": [
+        "Learner explicitly requested simple English-style pronunciation for language learning"
+      ],
+      "status": "preference_recorded"
+    },
+    "typing_accents": {
+      "evidence": [
+        "Learner reported difficulty entering accents on Mac; accept missing accents during practice while showing correct forms"
+      ],
+      "status": "accommodation_recorded"
     }
   }
 }

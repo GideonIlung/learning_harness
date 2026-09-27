@@ -7,6 +7,8 @@
     "frequent_checkpoints": true,
     "allow_formal_notation": true,
     "explain_new_symbols": true,
-    "proof_style": "intuition_then_formal"
+    "proof_style": "intuition_then_formal",
+    "language_learning_pronunciation_guides": true,
+    "pronunciation_style": "always include simple English-style pronunciation approximations for new French words/phrases"
   }
 }
