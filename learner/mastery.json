@@ -334,7 +334,7 @@
         "recognition": 0.0,
         "intuition": 0.07,
         "formal_understanding": 0.0,
-        "application": 0.0,
+        "application": 0.07,
         "reasoning": 0.0,
         "transfer": 0.0
       },
@@ -343,11 +343,16 @@
           "correct": 1,
           "incorrect": 0,
           "total": 1
+        },
+        "application": {
+          "correct": 1,
+          "incorrect": 0,
+          "total": 1
         }
       },
       "active_misconceptions": [],
       "resolved_misconceptions": [],
-      "last_updated": "2026-09-26T16:20:00Z",
+      "last_updated": "2026-09-27T00:00:00Z",
       "recent_assessments": [
         {
           "timestamp": "2026-09-26T16:20:00Z",
@@ -358,8 +363,210 @@
           "dimension": "intuition",
           "hint_level": 0,
           "notes": "Correctly identified static friction direction up the incline."
+        },
+        {
+          "timestamp": "2026-09-27T00:00:00Z",
+          "assessment_type": "rolling speed checkpoint",
+          "correct": true,
+          "confidence": 100,
+          "difficulty": "easy",
+          "dimension": "application",
+          "hint_level": 0,
+          "notes": "Correctly used v_G=r\u03c9 for wheel center speed."
         }
       ]
+    },
+    "circular motion": {
+      "dimensions": {
+        "formal_understanding": 0.0,
+        "reasoning": 0.07
+      },
+      "evidence_counts": {
+        "formal_understanding": {
+          "correct": 0,
+          "incorrect": 1,
+          "total": 1
+        },
+        "reasoning": {
+          "correct": 1,
+          "incorrect": 0,
+          "total": 1
+        }
+      },
+      "active_misconceptions": [],
+      "resolved_misconceptions": [
+        "constant speed implies zero acceleration"
+      ],
+      "recent_assessments": [
+        {
+          "timestamp": "2026-09-27T00:00:00Z",
+          "assessment_type": "diagnostic: constant-speed circular acceleration",
+          "correct": false,
+          "confidence": 100,
+          "difficulty": "easy",
+          "dimension": "formal_understanding",
+          "hint_level": 0,
+          "notes": "Initially answered zero acceleration for constant-speed circular motion.",
+          "misconception": "constant speed implies zero acceleration"
+        },
+        {
+          "timestamp": "2026-09-27T00:00:00Z",
+          "assessment_type": "derivation discussion: centripetal acceleration",
+          "correct": true,
+          "confidence": 80,
+          "difficulty": "medium",
+          "dimension": "reasoning",
+          "hint_level": 1,
+          "notes": "Understood better through parametric derivative derivation x=r cos(\u03c9t), y=r sin(\u03c9t); velocity-circle derivation was less intuitive."
+        }
+      ],
+      "last_updated": "2026-09-27T00:00:00Z"
+    },
+    "normal-tangential coordinates": {
+      "dimensions": {
+        "application": 0.07
+      },
+      "evidence_counts": {
+        "application": {
+          "correct": 1,
+          "incorrect": 0,
+          "total": 1
+        }
+      },
+      "active_misconceptions": [],
+      "resolved_misconceptions": [],
+      "recent_assessments": [
+        {
+          "timestamp": "2026-09-27T00:00:00Z",
+          "assessment_type": "computed normal and total acceleration",
+          "correct": true,
+          "confidence": 80,
+          "difficulty": "medium",
+          "dimension": "application",
+          "hint_level": 0,
+          "notes": "Correctly computed an=v^2/rho=12 and total acceleration sqrt(at^2+an^2)=12.65."
+        }
+      ],
+      "last_updated": "2026-09-27T00:00:00Z"
+    },
+    "vertical circular motion": {
+      "dimensions": {
+        "application": 0.07
+      },
+      "evidence_counts": {
+        "application": {
+          "correct": 1,
+          "incorrect": 0,
+          "total": 1
+        }
+      },
+      "active_misconceptions": [],
+      "resolved_misconceptions": [],
+      "recent_assessments": [
+        {
+          "timestamp": "2026-09-27T00:00:00Z",
+          "assessment_type": "loop normal force and minimum speed checkpoints",
+          "correct": true,
+          "confidence": 85,
+          "difficulty": "medium",
+          "dimension": "application",
+          "hint_level": 0,
+          "notes": "Correctly identified normal acceleration directions at top/bottom and computed v_min=sqrt(gr)=14.0 m/s."
+        }
+      ],
+      "last_updated": "2026-09-27T00:00:00Z"
+    },
+    "friction in curved motion": {
+      "dimensions": {
+        "recognition": 0.0,
+        "application": 0.07
+      },
+      "evidence_counts": {
+        "recognition": {
+          "correct": 0,
+          "incorrect": 1,
+          "total": 1
+        },
+        "application": {
+          "correct": 1,
+          "incorrect": 0,
+          "total": 1
+        }
+      },
+      "active_misconceptions": [],
+      "resolved_misconceptions": [
+        "moving object implies kinetic friction"
+      ],
+      "recent_assessments": [
+        {
+          "timestamp": "2026-09-27T00:00:00Z",
+          "assessment_type": "flat curve friction type diagnostic",
+          "correct": false,
+          "confidence": 50,
+          "difficulty": "medium",
+          "dimension": "recognition",
+          "hint_level": 0,
+          "notes": "Initially chose kinetic friction for non-skidding flat curve.",
+          "misconception": "moving object implies kinetic friction"
+        },
+        {
+          "timestamp": "2026-09-27T00:00:00Z",
+          "assessment_type": "flat curve max speed and skid friction checkpoints",
+          "correct": true,
+          "confidence": 95,
+          "difficulty": "medium",
+          "dimension": "application",
+          "hint_level": 0,
+          "notes": "Correctly identified static friction after repair, computed vmax=sqrt(mu_s g r)=21.7 m/s, and identified kinetic friction during skid."
+        }
+      ],
+      "last_updated": "2026-09-27T00:00:00Z"
+    },
+    "banked curves": {
+      "dimensions": {
+        "recognition": 0.0,
+        "application": 0.07
+      },
+      "evidence_counts": {
+        "recognition": {
+          "correct": 0,
+          "incorrect": 1,
+          "total": 1
+        },
+        "application": {
+          "correct": 1,
+          "incorrect": 0,
+          "total": 1
+        }
+      },
+      "active_misconceptions": [],
+      "resolved_misconceptions": [
+        "ignoring frictionless condition in banked curve"
+      ],
+      "recent_assessments": [
+        {
+          "timestamp": "2026-09-27T00:00:00Z",
+          "assessment_type": "frictionless banked curve force source diagnostic",
+          "correct": false,
+          "confidence": 100,
+          "difficulty": "medium",
+          "dimension": "recognition",
+          "hint_level": 0,
+          "notes": "Initially chose static friction despite problem specifying no friction.",
+          "misconception": "ignoring frictionless condition in banked curve"
+        },
+        {
+          "timestamp": "2026-09-27T00:00:00Z",
+          "assessment_type": "frictionless banked curve design speed",
+          "correct": true,
+          "confidence": 95,
+          "difficulty": "medium",
+          "dimension": "application",
+          "hint_level": 0,
+          "notes": "After clarification of banking, correctly identified horizontal normal component and computed v=sqrt(rg tan theta)=16.2 m/s."
+        }
+      ],
+      "last_updated": "2026-09-27T00:00:00Z"
     }
   }
 }
