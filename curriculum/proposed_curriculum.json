@@ -1,0 +1,156 @@
+{
+  "language": "French",
+  "approved_by_learner": true,
+  "approved_date": "2026-09-28",
+  "estimated_level": "early A1",
+  "primary_goals": [
+    "long-term fluency",
+    "reading French confidently"
+  ],
+  "curriculum_style": {
+    "name": "spiral curriculum",
+    "cycle": [
+      "conversation pattern",
+      "grammar need",
+      "practice",
+      "reading mini-text",
+      "speaking/writing task",
+      "review"
+    ],
+    "principles": [
+      "conversation-first while supporting reading ability",
+      "grammar introduced when it solves a communication or comprehension problem",
+      "frequent retrieval and short production tasks",
+      "review fragile items across sessions"
+    ]
+  },
+  "phase": "A1",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Core sentence engine",
+      "goal": "Build simple correct sentences.",
+      "patterns": [
+        "C’est… = It is…",
+        "Il y a… = There is / there are",
+        "J’ai… / Je n’ai pas de…",
+        "Ce / cet / cette / ces"
+      ],
+      "focus": [
+        "articles",
+        "noun gender",
+        "adjective agreement",
+        "basic negation",
+        "être and avoir basics"
+      ],
+      "example_output": "C’est une petite maison. Il y a un livre ici. Je n’ai pas de voiture."
+    },
+    {
+      "unit": 2,
+      "title": "Questions and answers",
+      "goal": "Ask and answer basic questions naturally.",
+      "patterns": [
+        "Tu as… ? = Do you have…?",
+        "Où est… ? = Where is…?",
+        "Qu’est-ce que c’est ? = What is it?",
+        "Qui est-ce ? = Who is it?",
+        "Est-ce que… ? = question marker"
+      ],
+      "current_position": true
+    },
+    {
+      "unit": 3,
+      "title": "Self-introduction",
+      "goal": "Talk about yourself simply.",
+      "patterns": [
+        "Je m’appelle…",
+        "Je suis…",
+        "J’habite à…",
+        "Je parle…",
+        "J’aime…"
+      ],
+      "mini_task": "Introduce yourself in 5 French sentences."
+    },
+    {
+      "unit": 4,
+      "title": "Present-tense verbs",
+      "goal": "Describe everyday actions.",
+      "verb_groups": [
+        "regular -er verbs: parler, habiter, aimer, travailler",
+        "key irregulars: être, avoir, aller, faire"
+      ],
+      "example_pattern": "je parle / tu parles / il parle / nous parlons / vous parlez / ils parlent"
+    },
+    {
+      "unit": 5,
+      "title": "Reading simple French",
+      "goal": "Understand short beginner texts.",
+      "skills": [
+        "recognizing cognates",
+        "guessing from context",
+        "identifying subject + verb + object",
+        "spotting articles and adjectives",
+        "reading for gist first, detail second"
+      ],
+      "text_types": [
+        "short dialogues",
+        "descriptions of people and places",
+        "simple daily routines"
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "Daily life vocabulary",
+      "goal": "Build useful word families.",
+      "topics": [
+        "house/home",
+        "town/places",
+        "food/drink",
+        "people/family",
+        "time/days",
+        "common adjectives"
+      ]
+    },
+    {
+      "unit": 7,
+      "title": "Survival conversation",
+      "goal": "Function in basic real situations.",
+      "tasks": [
+        "order food/drink",
+        "ask for directions",
+        "say you don’t understand",
+        "ask someone to repeat",
+        "buy something",
+        "make simple requests"
+      ]
+    },
+    {
+      "unit": 8,
+      "title": "First past/future ideas",
+      "goal": "Go beyond talking only about the present.",
+      "intro_patterns": [
+        "je vais + infinitive = I am going to…",
+        "j’ai fait / j’ai parlé = I did / I spoke"
+      ],
+      "scope_note": "Only basic recognition and use at first."
+    }
+  ],
+  "lesson_template": [
+    "2-minute review",
+    "one new pattern",
+    "short explanation",
+    "guided practice",
+    "mini reading or dialogue",
+    "learner production task",
+    "mistake review"
+  ],
+  "next_lesson_recommendation": {
+    "unit": 2,
+    "topic": "Tu as… ? questions and answers",
+    "target_patterns": [
+      "Tu as un livre ?",
+      "Oui, j’ai un livre.",
+      "Non, je n’ai pas de livre."
+    ]
+  }
+}

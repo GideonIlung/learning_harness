@@ -1,0 +1,117 @@
+{
+  "language": "French",
+  "level_band": "A1",
+  "concepts": [
+    {
+      "id": "articles_definite_indefinite_basic",
+      "name": "Basic definite and indefinite articles",
+      "examples": ["le livre", "la maison", "les livres", "un livre", "une maison", "des livres"],
+      "prerequisites": [],
+      "supports": ["noun_gender_basic", "adjective_agreement_basic", "simple_descriptions"]
+    },
+    {
+      "id": "noun_gender_basic",
+      "name": "Noun gender and number",
+      "examples": ["la maison", "la table", "la gare", "le livre"],
+      "prerequisites": ["articles_definite_indefinite_basic"],
+      "supports": ["adjective_agreement_basic", "demonstratives_basic"]
+    },
+    {
+      "id": "adjective_agreement_basic",
+      "name": "Basic adjective agreement",
+      "examples": ["un petit livre", "une petite maison", "des petits livres", "des petites maisons"],
+      "prerequisites": ["noun_gender_basic"],
+      "supports": ["simple_descriptions", "reading_simple_descriptions"]
+    },
+    {
+      "id": "etre_present_basic",
+      "name": "Basic être forms for simple descriptions",
+      "examples": ["je suis", "est", "sont"],
+      "prerequisites": [],
+      "supports": ["cest_pattern", "location_sentences", "self_introduction"]
+    },
+    {
+      "id": "avoir_present_basic",
+      "name": "Basic avoir forms for possession",
+      "examples": ["j’ai", "tu as"],
+      "prerequisites": [],
+      "supports": ["possession_statements", "yes_no_questions_tu_as", "negation_ne_pas_de"]
+    },
+    {
+      "id": "negation_ne_pas_de",
+      "name": "Negation with ne...pas and de after negated articles",
+      "examples": ["Je ne parle pas français.", "Je n’ai pas de livre.", "Je n’ai pas de maison."],
+      "prerequisites": ["avoir_present_basic", "articles_definite_indefinite_basic"],
+      "supports": ["conversation_answers", "survival_conversation"]
+    },
+    {
+      "id": "demonstratives_basic",
+      "name": "Demonstratives ce/cet/cette/ces",
+      "examples": ["ce livre", "cet étudiant", "cette maison", "ces livres"],
+      "prerequisites": ["noun_gender_basic"],
+      "supports": ["simple_descriptions", "reading_simple_descriptions"]
+    },
+    {
+      "id": "location_here_there",
+      "name": "Here and there",
+      "examples": ["ici", "là", "Ce livre est ici."],
+      "prerequisites": ["etre_present_basic"],
+      "supports": ["location_questions"]
+    },
+    {
+      "id": "where_questions_ou_est",
+      "name": "Where questions with Où est… ?",
+      "examples": ["Où est la gare ?", "Où est le livre ?"],
+      "prerequisites": ["etre_present_basic", "articles_definite_indefinite_basic"],
+      "supports": ["survival_conversation", "asking_directions"]
+    },
+    {
+      "id": "yes_no_questions_tu_as",
+      "name": "Yes-no questions with Tu as… ?",
+      "examples": ["Tu as un livre ?", "Oui, j’ai un livre.", "Non, je n’ai pas de livre."],
+      "prerequisites": ["avoir_present_basic", "negation_ne_pas_de"],
+      "supports": ["conversation_answers", "survival_conversation"]
+    },
+    {
+      "id": "cest_pattern",
+      "name": "C’est… pattern",
+      "examples": ["C’est une maison.", "C’est un petit livre."],
+      "prerequisites": ["etre_present_basic", "articles_definite_indefinite_basic"],
+      "supports": ["identifying_objects", "reading_simple_descriptions"]
+    },
+    {
+      "id": "il_y_a_pattern",
+      "name": "Il y a… pattern",
+      "examples": ["Il y a un livre ici.", "Il y a des maisons."],
+      "prerequisites": ["articles_definite_indefinite_basic"],
+      "supports": ["describing_scenes", "reading_simple_descriptions"]
+    },
+    {
+      "id": "self_introduction_basic",
+      "name": "Basic self-introduction",
+      "examples": ["Je m’appelle…", "Je suis…", "J’habite à…", "Je parle…", "J’aime…"],
+      "prerequisites": ["etre_present_basic", "regular_er_verbs_present_basic"],
+      "supports": ["conversation_basic"]
+    },
+    {
+      "id": "regular_er_verbs_present_basic",
+      "name": "Regular -er verbs in the present tense",
+      "examples": ["je parle", "tu parles", "nous parlons", "vous parlez"],
+      "prerequisites": [],
+      "supports": ["daily_actions", "self_introduction_basic", "reading_daily_routines"]
+    },
+    {
+      "id": "reading_strategies_a1",
+      "name": "A1 reading strategies",
+      "examples": ["find cognates", "identify subject + verb + object", "read for gist before details"],
+      "prerequisites": ["articles_definite_indefinite_basic", "etre_present_basic", "avoir_present_basic"],
+      "supports": ["reading_simple_descriptions", "reading_daily_routines"]
+    }
+  ],
+  "fragile_items_to_review": [
+    "la gare, not le gare",
+    "sont = are vs son = his/her/its",
+    "un/une/des usually become de after ne...pas",
+    "plural adjective agreement after ces: ces petites maisons / ces petits livres"
+  ]
+}

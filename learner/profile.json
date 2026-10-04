@@ -10,5 +10,16 @@
     "proof_style": "intuition_then_formal",
     "language_learning_pronunciation_guides": true,
     "pronunciation_style": "always include simple English-style pronunciation approximations for new French words/phrases"
+  },
+  "goals": {
+    "french": {
+      "primary_goals": [
+        "long-term fluency",
+        "reading French confidently"
+      ],
+      "approved_curriculum": "curriculum/proposed_curriculum.json",
+      "current_level_estimate": "early A1",
+      "curriculum_style": "spiral curriculum: conversation pattern → grammar need → practice → reading mini-text → production task → review"
+    }
   }
 }
