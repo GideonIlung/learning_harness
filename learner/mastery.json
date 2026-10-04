@@ -567,6 +567,159 @@
         }
       ],
       "last_updated": "2026-09-27T00:00:00Z"
+    },
+    "vibrations natural frequency": {
+      "dimensions": {
+        "recognition": 0.07,
+        "application": 0.07
+      },
+      "evidence_counts": {
+        "recognition": {
+          "correct": 1,
+          "incorrect": 0,
+          "total": 1
+        },
+        "application": {
+          "correct": 1,
+          "incorrect": 0,
+          "total": 1
+        }
+      },
+      "active_misconceptions": [],
+      "resolved_misconceptions": [
+        "confused natural circular frequency with its square (k/m vs sqrt(k/m))"
+      ],
+      "recent_assessments": [
+        {
+          "timestamp": "2026-09-29T00:53:20Z",
+          "assessment_type": "diagnostic: initially chose k/m instead of sqrt(k/m) for natural circular frequency",
+          "correct": true,
+          "confidence": 50,
+          "difficulty": "easy",
+          "dimension": "recognition",
+          "hint_level": 0,
+          "notes": "Confused squared natural frequency with natural frequency."
+        },
+        {
+          "timestamp": "2026-09-29T00:53:20Z",
+          "assessment_type": "natural frequency calculation checkpoint",
+          "correct": true,
+          "confidence": 100,
+          "difficulty": "medium",
+          "dimension": "application",
+          "hint_level": 0,
+          "notes": "Correctly computed omega_n=sqrt(2500/10)=15.8 rad/s after repair."
+        }
+      ],
+      "last_updated": "2026-09-29T00:53:20Z"
+    },
+    "frequency conversion": {
+      "dimensions": {
+        "application": 0.07
+      },
+      "evidence_counts": {
+        "application": {
+          "correct": 1,
+          "incorrect": 0,
+          "total": 1
+        }
+      },
+      "active_misconceptions": [],
+      "resolved_misconceptions": [],
+      "recent_assessments": [
+        {
+          "timestamp": "2026-09-29T00:53:20Z",
+          "assessment_type": "rad/s to Hz checkpoint",
+          "correct": true,
+          "confidence": 100,
+          "difficulty": "medium",
+          "dimension": "application",
+          "hint_level": 0,
+          "notes": "Correctly converted 15.8 rad/s to 2.52 Hz using f=omega/(2pi)."
+        }
+      ],
+      "last_updated": "2026-09-29T00:53:20Z"
+    },
+    "damping ratio": {
+      "dimensions": {
+        "application": 0.07
+      },
+      "evidence_counts": {
+        "application": {
+          "correct": 1,
+          "incorrect": 0,
+          "total": 1
+        }
+      },
+      "active_misconceptions": [],
+      "resolved_misconceptions": [],
+      "recent_assessments": [
+        {
+          "timestamp": "2026-09-29T00:53:20Z",
+          "assessment_type": "damping ratio calculation checkpoint",
+          "correct": true,
+          "confidence": 70,
+          "difficulty": "medium",
+          "dimension": "application",
+          "hint_level": 0,
+          "notes": "Correctly computed zeta=100/(2*10*15.8)=0.316."
+        }
+      ],
+      "last_updated": "2026-09-29T00:53:20Z"
+    },
+    "resonance": {
+      "dimensions": {
+        "recognition": 0.07
+      },
+      "evidence_counts": {
+        "recognition": {
+          "correct": 1,
+          "incorrect": 0,
+          "total": 1
+        }
+      },
+      "active_misconceptions": [],
+      "resolved_misconceptions": [],
+      "recent_assessments": [
+        {
+          "timestamp": "2026-09-29T00:53:20Z",
+          "assessment_type": "near-resonance behavior checkpoint",
+          "correct": true,
+          "confidence": 30,
+          "difficulty": "medium",
+          "dimension": "recognition",
+          "hint_level": 0,
+          "notes": "Correctly expected large vibration for forcing frequency 29 rad/s near natural frequency 30 rad/s, but low confidence."
+        }
+      ],
+      "last_updated": "2026-09-29T00:53:20Z"
+    },
+    "torsional vibration": {
+      "dimensions": {
+        "recognition": 0.07
+      },
+      "evidence_counts": {
+        "recognition": {
+          "correct": 1,
+          "incorrect": 0,
+          "total": 1
+        }
+      },
+      "active_misconceptions": [],
+      "resolved_misconceptions": [],
+      "recent_assessments": [
+        {
+          "timestamp": "2026-09-29T00:53:20Z",
+          "assessment_type": "diagnostic torsional natural frequency",
+          "correct": true,
+          "confidence": 40,
+          "difficulty": "easy",
+          "dimension": "recognition",
+          "hint_level": 0,
+          "notes": "Correctly selected omega_n=sqrt(k_t/I), but low confidence."
+        }
+      ],
+      "last_updated": "2026-09-29T00:53:20Z"
     }
   }
 }
