@@ -11,7 +11,9 @@
       "evidence": [
         "Correctly formed un petit livre, une petite maison, des petites tables",
         "Correctly used petit with masculine livre and petite with feminine maison",
-        "Correctly produced cette petite maison and cette petite table"
+        "Correctly produced cette petite maison and cette petite table",
+        "Correctly produced une petite maison and des petites maisons.",
+        "Initially omitted plural -s in des petit livres; corrected after feedback pattern to petits/petites."
       ],
       "status": "developing"
     },
@@ -26,7 +28,10 @@
     "negation_ne_pas_basic": {
       "evidence": [
         "Correctly selected Je ne parle pas français, Nous ne parlons pas, Je n’ai pas de livre",
-        "Initially wrote Je n’ai pas une petite maison; then correctly wrote Je n’ai pas de petit livre after feedback"
+        "Initially wrote Je n’ai pas une petite maison; then correctly wrote Je n’ai pas de petit livre after feedback",
+        "Correctly produced Non, je n’ai pas de petite maison and Non, je n’ai pas de petites maisons.",
+        "Sometimes writes pa for pas; meaning understood but spelling needs review.",
+        "Initially used pas des livres, then repaired to pas de + plural noun pattern."
       ],
       "status": "developing"
     },
@@ -64,6 +69,46 @@
         "Learner reported difficulty entering accents on Mac; accept missing accents during practice while showing correct forms"
       ],
       "status": "accommodation_recorded"
+    },
+    "tu_as_questions_basic": {
+      "evidence": [
+        "Correctly produced Tu as un petit livre ? and Tu as une petite maison ? for “Do you have…” questions.",
+        "Initially omitted avoir in Oui, je un livre; corrected to Oui, j’ai un petit livre in later checkpoint."
+      ],
+      "status": "developing"
+    },
+    "est_ce_que_questions_basic": {
+      "evidence": [
+        "Correctly produced Est-ce que tu as un petit livre ?",
+        "Initially omitted que in Est-ce que chunk once; then identified Est-ce que as correct multiple-choice answer."
+      ],
+      "status": "developing"
+    },
+    "avoir_jai_basic": {
+      "evidence": [
+        "Correctly used J’ai in Oui, j’ai un petit livre and Oui, j’ai une petite maison after feedback.",
+        "Needs continued review distinguishing je + noun from j’ai + noun."
+      ],
+      "status": "developing"
+    },
+    "articles_plural_des_de_basic": {
+      "evidence": [
+        "Correctly produced des petites maisons and pas de petites maisons.",
+        "Initially used cet livres for books; repaired to des livres / des petits livres."
+      ],
+      "status": "developing"
+    },
+    "quest_ce_que_cest_basic": {
+      "evidence": [
+        "Correctly translated Qu’est-ce que c’est ?, C’est un petit livre, and C’est une petite maison."
+      ],
+      "status": "introduced"
+    },
+    "cest_ce_sont_basic": {
+      "evidence": [
+        "Introduced contrast C’est un livre vs Ce sont des livres; no learner production yet."
+      ],
+      "status": "introduced"
     }
   }
 }
