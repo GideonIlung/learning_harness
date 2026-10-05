@@ -288,3 +288,22 @@ Since \(0<\zeta<1\), the system is underdamped.
 - Practice forced-vibration frequency ratio \(r=\omega/\omega_n\).
 - Apply amplification factor formula.
 - Strengthen resonance intuition and damping effects near \(r=1\).
+
+## Session update: forced vibration start
+
+- Reviewed natural circular frequency: \(\omega_n=\sqrt{k/m}\).
+- Correctly recognized near-resonance when forcing frequency \(\omega\) is close to natural frequency \(\omega_n\).
+- Introduced frequency ratio:
+
+\[
+r=\frac{\omega}{\omega_n}
+\]
+
+- Learner correctly computed \(r=10/40=0.25\) and identified it as not near resonance.
+- Next time: continue with dynamic amplification factor
+
+\[
+M=\frac{1}{\sqrt{(1-r^2)^2+(2\zeta r)^2}}
+\]
+
+and practice calculating vibration amplitude \(X=M(F_0/k)\).

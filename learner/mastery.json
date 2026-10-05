@@ -287,7 +287,8 @@
         "formal_understanding": 0,
         "application": 0.07,
         "reasoning": 0.0,
-        "transfer": 0.0
+        "transfer": 0.0,
+        "method_selection": 0.0
       },
       "evidence_counts": {
         "formal_understanding": {
@@ -299,13 +300,19 @@
           "correct": 1,
           "incorrect": 0,
           "total": 1
+        },
+        "method_selection": {
+          "correct": 0,
+          "incorrect": 1,
+          "total": 1
         }
       },
       "active_misconceptions": [
-        "confused linear force equation with rotational moment equation"
+        "confused linear force equation with rotational moment equation",
+        "rolling rigid bodies can be solved with rotation equation alone"
       ],
       "resolved_misconceptions": [],
-      "last_updated": "2026-09-26T16:20:00Z",
+      "last_updated": "2026-10-04T00:00:00Z",
       "recent_assessments": [
         {
           "timestamp": "2026-09-26T16:20:00Z",
@@ -326,6 +333,16 @@
           "dimension": "application",
           "hint_level": 0,
           "notes": "Correctly chose both translational and rotational equations for rolling cylinder."
+        },
+        {
+          "timestamp": "2026-10-04T00:00:00Z",
+          "assessment_type": "summative test item",
+          "correct": false,
+          "confidence": null,
+          "difficulty": "mixed",
+          "dimension": "method_selection",
+          "hint_level": 0,
+          "notes": "Chose only rotational equation; rolling dynamics generally requires both translational and rotational equations."
         }
       ]
     },
@@ -346,13 +363,13 @@
         },
         "application": {
           "correct": 1,
-          "incorrect": 0,
-          "total": 1
+          "incorrect": 1,
+          "total": 2
         }
       },
       "active_misconceptions": [],
       "resolved_misconceptions": [],
-      "last_updated": "2026-09-27T00:00:00Z",
+      "last_updated": "2026-10-04T00:00:00Z",
       "recent_assessments": [
         {
           "timestamp": "2026-09-26T16:20:00Z",
@@ -373,6 +390,16 @@
           "dimension": "application",
           "hint_level": 0,
           "notes": "Correctly used v_G=r\u03c9 for wheel center speed."
+        },
+        {
+          "timestamp": "2026-10-04T00:00:00Z",
+          "assessment_type": "summative test item",
+          "correct": false,
+          "confidence": null,
+          "difficulty": "mixed",
+          "dimension": "application",
+          "hint_level": 0,
+          "notes": "Could not recall v=r\u03c9 in summative."
         }
       ]
     },
@@ -535,8 +562,8 @@
         },
         "application": {
           "correct": 1,
-          "incorrect": 0,
-          "total": 1
+          "incorrect": 1,
+          "total": 2
         }
       },
       "active_misconceptions": [],
@@ -564,14 +591,25 @@
           "dimension": "application",
           "hint_level": 0,
           "notes": "After clarification of banking, correctly identified horizontal normal component and computed v=sqrt(rg tan theta)=16.2 m/s."
+        },
+        {
+          "timestamp": "2026-10-04T00:00:00Z",
+          "assessment_type": "summative test item",
+          "correct": false,
+          "confidence": null,
+          "difficulty": "mixed",
+          "dimension": "application",
+          "hint_level": 0,
+          "notes": "Arithmetic/calculation error on frictionless banked curve."
         }
       ],
-      "last_updated": "2026-09-27T00:00:00Z"
+      "last_updated": "2026-10-04T00:00:00Z"
     },
     "vibrations natural frequency": {
       "dimensions": {
         "recognition": 0.07,
-        "application": 0.07
+        "application": 0.07,
+        "reasoning": 0.0
       },
       "evidence_counts": {
         "recognition": {
@@ -583,9 +621,16 @@
           "correct": 1,
           "incorrect": 0,
           "total": 1
+        },
+        "reasoning": {
+          "correct": 0,
+          "incorrect": 1,
+          "total": 1
         }
       },
-      "active_misconceptions": [],
+      "active_misconceptions": [
+        "k/m is natural frequency rather than natural frequency squared"
+      ],
       "resolved_misconceptions": [
         "confused natural circular frequency with its square (k/m vs sqrt(k/m))"
       ],
@@ -609,9 +654,19 @@
           "dimension": "application",
           "hint_level": 0,
           "notes": "Correctly computed omega_n=sqrt(2500/10)=15.8 rad/s after repair."
+        },
+        {
+          "timestamp": "2026-10-04T00:00:00Z",
+          "assessment_type": "summative test item",
+          "correct": false,
+          "confidence": null,
+          "difficulty": "mixed",
+          "dimension": "reasoning",
+          "hint_level": 0,
+          "notes": "Conceptual explanation incomplete: k/m is omega_n^2, not omega_n."
         }
       ],
-      "last_updated": "2026-09-29T00:53:20Z"
+      "last_updated": "2026-10-04T00:00:00Z"
     },
     "frequency conversion": {
       "dimensions": {
@@ -669,13 +724,13 @@
     },
     "resonance": {
       "dimensions": {
-        "recognition": 0.07
+        "recognition": 0.09
       },
       "evidence_counts": {
         "recognition": {
-          "correct": 1,
+          "correct": 2,
           "incorrect": 0,
-          "total": 1
+          "total": 2
         }
       },
       "active_misconceptions": [],
@@ -690,9 +745,19 @@
           "dimension": "recognition",
           "hint_level": 0,
           "notes": "Correctly expected large vibration for forcing frequency 29 rad/s near natural frequency 30 rad/s, but low confidence."
+        },
+        {
+          "timestamp": "2026-10-04T15:28:30Z",
+          "assessment_type": "near-resonance frequency comparison",
+          "correct": true,
+          "confidence": 70,
+          "difficulty": "easy",
+          "dimension": "recognition",
+          "hint_level": 0,
+          "notes": "Correctly identified forcing frequency 14 rad/s close to natural frequency 15.8 rad/s as possible resonance effects."
         }
       ],
-      "last_updated": "2026-09-29T00:53:20Z"
+      "last_updated": "2026-10-04T15:28:30Z"
     },
     "torsional vibration": {
       "dimensions": {
@@ -720,6 +785,33 @@
         }
       ],
       "last_updated": "2026-09-29T00:53:20Z"
+    },
+    "frequency ratio": {
+      "dimensions": {
+        "application": 0.07
+      },
+      "evidence_counts": {
+        "application": {
+          "correct": 1,
+          "incorrect": 0,
+          "total": 1
+        }
+      },
+      "active_misconceptions": [],
+      "resolved_misconceptions": [],
+      "recent_assessments": [
+        {
+          "timestamp": "2026-10-04T15:28:30Z",
+          "assessment_type": "frequency ratio near-resonance checkpoint",
+          "correct": true,
+          "confidence": 100,
+          "difficulty": "easy",
+          "dimension": "application",
+          "hint_level": 0,
+          "notes": "Correctly computed r=10/40=0.25 and identified not near resonance."
+        }
+      ],
+      "last_updated": "2026-10-04T15:28:30Z"
     }
   }
 }
