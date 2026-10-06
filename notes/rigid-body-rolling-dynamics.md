@@ -115,3 +115,35 @@ mg\sin\theta - \frac12 ma = ma
 
 - Correctly identified that rolling cylinder dynamics generally requires both \(\sum F=ma\) and \(\sum M=I\alpha\). Confidence: 70%.
 - Correctly identified static friction direction as up the incline for a cylinder rolling down an incline. Confidence: 80%.
+
+## Additional checkpoints from 2026-10-06 session
+
+- Correctly repaired method-selection reasoning: \(\sum F=ma\) alone is not enough for rolling because static friction is an unknown and is tied to rotation through \(\sum M=I\alpha\).
+- Correctly computed a solid cylinder's acceleration down a \(20^\circ\) incline:
+
+\[
+a=\frac{2}{3}g\sin 20^\circ \approx 2.24\ \mathrm{m/s^2}
+\]
+
+- Correctly solved static friction from translation for \(m=12\ \mathrm{kg}\):
+
+\[
+f_s=mg\sin\theta - ma \approx 13.4\ \mathrm{N}
+\]
+
+Direction: up the incline.
+
+- Clarified distinction:
+  - frictionless sliding block: \(f=0\), so \(a=g\sin\theta\)
+  - rolling without slipping: static friction may be nonzero and provides torque
+  - static friction generally satisfies \(f_s\le \mu_sN\), with equality only at impending slip
+
+## Next starting point
+
+Resume with rigid-body energy:
+
+\[
+T=\frac12 mv_G^2+\frac12 I_G\omega^2
+\]
+
+For a solid cylinder, derive the rotational kinetic-energy term using \(I_G=\frac12mr^2\) and \(\omega=v/r\).
