@@ -1,0 +1,9 @@
+{
+  "title": "Block on an inclined plane",
+  "description": "Explore gravity, the normal force, friction, and motion. For a block sliding down the ramp, increasing friction slows its acceleration.",
+  "scene": "inclined-plane",
+  "parameters": {"angleDegrees": 30, "massKg": 2, "gravity": 9.81, "friction": 0.25},
+  "annotations": [{"target":"block","text":"Rigid body: the blue block"},{"target":"ramp","text":"Fixed rigid body: the ramp"}],
+  "highlight": "block",
+  "showForces": true
+}
