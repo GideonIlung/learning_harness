@@ -867,6 +867,82 @@
           "notes": "Correctly computed vG=3 m/s right, bottom point speed 0, top point speed 6 m/s, and rim accelerations a_n=30 m/s^2 inward and a_t=1.2 m/s^2 tangential for r=0.30 m, omega=10 rad/s, alpha=4 rad/s^2."
         }
       ]
+    },
+    "rigid-body work-energy": {
+      "dimensions": {
+        "recognition": 0.07,
+        "intuition": 0.06,
+        "application": 0.07,
+        "reasoning": 0.04,
+        "transfer": 0.05
+      },
+      "evidence_counts": {
+        "recognition": {
+          "correct": 1,
+          "incorrect": 0,
+          "total": 1
+        },
+        "intuition": {
+          "correct": 1,
+          "incorrect": 1,
+          "total": 2
+        },
+        "application": {
+          "correct": 1,
+          "incorrect": 0,
+          "total": 1
+        },
+        "reasoning": {
+          "correct": 1,
+          "incorrect": 1,
+          "total": 2
+        },
+        "transfer": {
+          "correct": 1,
+          "incorrect": 0,
+          "total": 1
+        }
+      },
+      "active_misconceptions": [],
+      "resolved_misconceptions": [
+        "attributed rolling speed differences to mass rather than rotational inertia/mass distribution"
+      ],
+      "last_updated": "2026-10-12T00:00:00Z",
+      "recent_assessments": [
+        {
+          "timestamp": "2026-10-12T00:00:00Z",
+          "event_type": "assessment",
+          "assessment_type": "solid cylinder energy speed checkpoint",
+          "correct": true,
+          "confidence": 80,
+          "difficulty": "medium",
+          "dimension": "application",
+          "hint_level": 0,
+          "notes": "Correctly selected v_G=sqrt(4gh/3) for a solid cylinder rolling from height h using rigid-body energy."
+        },
+        {
+          "timestamp": "2026-10-12T00:00:00Z",
+          "event_type": "assessment",
+          "assessment_type": "mass cancellation and shape comparison reasoning",
+          "correct": false,
+          "confidence": null,
+          "difficulty": "medium",
+          "dimension": "reasoning",
+          "hint_level": 0,
+          "notes": "Initially unsure why mass cancels and incorrectly reasoned solid cylinder is faster due to more mass/inertia. Repaired: speed depends on beta in I=beta m r^2, not mass; smaller beta means less rotational energy share and faster translation."
+        },
+        {
+          "timestamp": "2026-10-12T00:00:00Z",
+          "event_type": "assessment",
+          "assessment_type": "beta transfer checkpoint",
+          "correct": true,
+          "confidence": null,
+          "difficulty": "medium",
+          "dimension": "transfer",
+          "hint_level": 0,
+          "notes": "Correctly identified smaller beta as faster and solid sphere as having larger angular speed than hoop for same radius after rolling from same height."
+        }
+      ]
     }
   }
 }

@@ -147,3 +147,52 @@ T=\frac12 mv_G^2+\frac12 I_G\omega^2
 \]
 
 For a solid cylinder, derive the rotational kinetic-energy term using \(I_G=\frac12mr^2\) and \(\omega=v/r\).
+
+## Session update: rigid-body work-energy visualization and checkpoints
+
+For rolling without slipping, rigid-body kinetic energy includes both translation and rotation:
+
+\[
+T=\frac12mv_G^2+\frac12I_G\omega^2
+\]
+
+For a body rolling down from height \(h\):
+
+\[
+mgh=\frac12mv_G^2+\frac12I_G\omega^2
+\]
+
+Using \(I_G=\beta mr^2\) and \(v_G=r\omega\):
+
+\[
+mgh=\frac12mv_G^2+\frac12\beta mv_G^2
+\]
+
+\[
+v_G=\sqrt{\frac{2gh}{1+\beta}}
+\]
+
+Key intuition repaired:
+
+- Mass cancels because greater mass gives proportionally greater gravitational energy and proportionally greater translational/rotational inertia.
+- Rolling speed depends on mass distribution through \(\beta\), not on mass alone.
+- Smaller \(\beta\) means less energy goes into rotation and more into center-of-mass speed.
+
+Examples:
+
+| Shape | \(\beta\) in \(I=\beta mr^2\) | Relative speed |
+|---|---:|---|
+| Solid sphere | \(2/5\) | fastest |
+| Solid cylinder | \(1/2\) | middle |
+| Hoop/thin hollow cylinder | \(1\) | slowest |
+
+Learner evidence:
+
+- Correctly selected \(v_G=\sqrt{4gh/3}\) for a solid cylinder with 80% confidence.
+- Initially attributed solid-cylinder advantage to mass/inertia; repaired to mass distribution / rotational inertia factor \(\beta\).
+- Correctly transferred idea: smaller \(\beta\) is faster; for same radius, the faster object also has larger \(\omega=v/r\).
+
+Next time:
+
+- Do one numeric rigid-body energy problem.
+- Then continue to rigid-body impulse-momentum or forced vibration amplification.
