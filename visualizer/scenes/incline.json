@@ -1,9 +1,7 @@
 {
-  "title": "Block on an inclined plane",
-  "description": "Explore gravity, the normal force, friction, and motion. For a block sliding down the ramp, increasing friction slows its acceleration.",
-  "scene": "inclined-plane",
-  "parameters": {"angleDegrees": 30, "massKg": 2, "gravity": 9.81, "friction": 0.25},
-  "annotations": [{"target":"block","text":"Rigid body: the blue block"},{"target":"ramp","text":"Fixed rigid body: the ramp"}],
-  "highlight": "block",
-  "showForces": true
+  "title": "Fixed-Pivot Rotating Rod",
+  "description": "A rod of length L rotates about a fixed pin A. Every point moves in a circle centered at A, so the endpoint speed is v = ωL.",
+  "scene": "rotating-rod",
+  "parameters": {"length": 0.5, "omega": 4, "animationRate": 1},
+  "showVectors": true
 }

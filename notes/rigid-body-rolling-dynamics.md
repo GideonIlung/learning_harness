@@ -192,7 +192,17 @@ Learner evidence:
 - Initially attributed solid-cylinder advantage to mass/inertia; repaired to mass distribution / rotational inertia factor \(\beta\).
 - Correctly transferred idea: smaller \(\beta\) is faster; for same radius, the faster object also has larger \(\omega=v/r\).
 
+Session update:
+
+- Correctly applied rolling energy to a solid cylinder from height: 
+  \(v=\sqrt{2gh/(1+\beta)}\), obtaining \(v=4.85\ \mathrm{m/s}\) for \(h=1.8\ \mathrm{m}\).
+- Correctly used \(\omega=v/r\), obtaining \(16.17\ \mathrm{rad/s}\) for \(r=0.30\ \mathrm{m}\).
+- Correctly distinguished angular impulse–momentum from rotational work–energy:
+  - torque over time: \(\int M\,dt=\Delta H\)
+  - torque over angle: \(W=M\theta=\Delta(\tfrac12I\omega^2)\)
+- Correctly solved fixed-axis rotational impulse and work-energy examples.
+- Visualized a fixed-pivot rod and identified endpoint velocity as tangent to the circular path, with \(v_B=\omega L\).
+
 Next time:
 
-- Do one numeric rigid-body energy problem.
-- Then continue to rigid-body impulse-momentum or forced vibration amplification.
+- Continue with rigid-body Newton equations/mechanisms, or forced-vibration amplification.
